@@ -1,5 +1,5 @@
 {
-    "name": "ai-mario-web",
+    "name": "artificial_intelligence_play_game_demo-web",
     "private": true,
     "scripts": {
       "dev": "vite --host 0.0.0.0",

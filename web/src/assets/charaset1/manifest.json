@@ -1,0 +1,13 @@
+{
+  "name": "キャラセット",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Demo Author",
+  "sprites": {
+    "player_idle": "player_idle.png",
+    "player_run": "player_run.png",
+    "enemy_slime": "enemy_slime.png",
+    "tileset": "tileset.png",
+    "ui_controller": "ui_controller.png"
+  }
+}

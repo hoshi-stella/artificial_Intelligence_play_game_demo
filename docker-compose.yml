@@ -40,13 +40,12 @@ services:
       - db
 
   db:
-    image: mysql:8.4
+    image: mariadb:11.3
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASS}
       MYSQL_DATABASE: ${DB_NAME}
       MYSQL_USER: ${DB_USER}
       MYSQL_PASSWORD: ${DB_PASS}
-    command: --default-authentication-plugin=mysql_native_password
     volumes:
       - dbdata:/var/lib/mysql
       - ./sql/001_schema.sql:/docker-entrypoint-initdb.d/001_schema.sql:ro
